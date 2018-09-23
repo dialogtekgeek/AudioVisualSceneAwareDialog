@@ -2,12 +2,12 @@
 
 This system was impletemented for AVSD at DSTC7 where the naive fusion apporoach bewteen audio and visula features in the following paper was realized by translated from Chainer to PyTorch. 
 
-@article{hori2018end,
-  title={End-to-End Audio Visual Scene-Aware Dialog using Multimodal Attention-Based Video Features},
-  author={Hori, Chiori and Alamri, Huda and Wang, Jue and Winchern, Gordon and Hori, Takaaki and Cherian, Anoop and Marks, Tim K and Cartillier, Vincent and Lopes, Raphael Gontijo and Das, Abhishek and others},
-  journal={arXiv preprint arXiv:1806.08409},
-  year={2018}
-}
+      @article{hori2018end,
+        title={End-to-End Audio Visual Scene-Aware Dialog using Multimodal Attention-Based Video Features},
+        author={Hori, Chiori and Alamri, Huda and Wang, Jue and Winchern, Gordon and Hori, Takaaki and Cherian, Anoop and Marks, Tim K and Cartillier, Vincent and Lopes, Raphael Gontijo and Das, Abhishek and others},
+        journal={arXiv preprint arXiv:1806.08409},
+        year={2018}
+      }
 
 ## Required packages
 
