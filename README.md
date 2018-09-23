@@ -8,6 +8,10 @@
 - six
 - java 1.8.0   (for coco-evaluation tools)
 
+## DSTC7 AVSD track data links
+
+   https://github.com/hudaAlamri/DSTC7-Audio-Visual-Scene-Aware-Dialog-AVSD-Challenge
+
 ## How to run the code:
 
    1. Obtain the dialog data files (.json) and store them in `data/`.
@@ -31,7 +35,7 @@
 
 ## Result:
 
-The following results were obtained for the official validation set by using `run_i3d.sh`.
+The following results were obtained for the prototype test set by using `run_i3d.sh`.
 
 | METRIC | RESULT |
 | ------ | -------|
