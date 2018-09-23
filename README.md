@@ -20,9 +20,9 @@
       - `test_set4DSTC7-AVSD.json` (official test set. this file does not include groundtruth at this moment)
       - `test_set.json`  (prototype test set used for tentative evaluation)
  
-   2. Obtain the feature data and extract files under `data/charades_features/`.
-      - `i3d_rgb`, `i3d_flow`, `vggish`  (train and validation sets)
-      - `i3d_rgb_testset`, `i3d_flow_testset`, `vggish_testset` (official test sets)
+   2. Make directory `data/charades_features` and extract files under the directory from downloaded feature packages:
+      - `i3d_rgb.tgz`, `i3d_flow.tgz`, `vggish.tgz`  (train and validation sets)
+      - `i3d_rgb_testset.tgz`, `i3d_flow_testset.tgz`, `vggish_testset.tgz` (official test sets)
 
    3. Run `run_i3d.sh` to train and test the network, that uses `i3d_rgb` and `i3d_flow` features. (`run_i3d+vggish.sh` is another example that further uses `vggish` features)
 
