@@ -26,6 +26,7 @@
 
    5. You can see the evaluation result `result_test_set_b5_p1.0.eval` in the folder. Note that the test set is not the official one.
       - if you generate sentences for the official test set, you can run the script as
+      
             run_i3d.sh --stage 3 --test-set data/test_set4DSTC7-AVSD.json --fea-file "<FeaType>_testset/<ImageID>.npy"
 
 ## Result:
