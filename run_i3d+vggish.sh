@@ -7,7 +7,6 @@
 stage=1
 use_slurm=true
 slurm_queue=clusterNew
-imgpath=$DB_ROOT/Charades/video
 workdir=`pwd`
 
 # train|val|test sets including dialog text for each video
