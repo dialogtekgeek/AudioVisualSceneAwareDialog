@@ -5,7 +5,7 @@
 . path.sh
 
 stage=1
-use_slurm=true
+use_slurm=false
 slurm_queue=clusterNew
 workdir=`pwd`
 
