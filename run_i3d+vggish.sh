@@ -5,7 +5,7 @@
 . path.sh
 
 stage=1
-use_slurm=true
+use_slurm=false
 slurm_queue=clusterNew
 workdir=`pwd`
 
@@ -178,9 +178,9 @@ if [ $stage -le 4 ]; then
         hypothesis=${result%.*}_hyp.json
         result_eval=${result%.*}.eval
         echo Evaluating: $result
-        utils/get_annotation.py -s data/stopwords.txt $data_set $reference
-        utils/get_hypotheses.py -s data/stopwords.txt $result $hypothesis
-        utils/evaluate.py $reference $hypothesis >& $result_eval
+        python utils/get_annotation.py -s data/stopwords.txt $data_set $reference
+        python utils/get_hypotheses.py -s data/stopwords.txt $result $hypothesis
+        python utils/evaluate.py $reference $hypothesis >& $result_eval
         echo Wrote details in $result_eval
         echo "--- summary ---"
         awk '/^(Bleu_[1-4]|METEOR|ROUGE_L|CIDEr):/{print $0; if($1=="CIDEr:"){exit}}'\
