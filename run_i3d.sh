@@ -165,7 +165,7 @@ if [ $stage -le 3 ]; then
     done
 fi
 
-# scoring only for validation set
+# scoring
 if [ $stage -le 4 ]; then
     echo --------------------------
     echo stage 4: score results
