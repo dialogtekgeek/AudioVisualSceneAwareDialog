@@ -46,7 +46,8 @@ https://arxiv.org/abs/1806.08409
 
 ## Result:
 
-The following results were obtained for the prototype test set by using `run_i3d.sh`.
+The following results were obtained for the "prototype" test set by using `run_i3d.sh`.
+
 
 | METRIC | RESULT |
 | ------ | -------|
