@@ -4,11 +4,10 @@ This is an implementation of the naive fusion of audio and video features target
 
 Please cite the paper for the baseline system:
 
-
-        @article{alamri@DSTC7,
+        @inproceedings{alamri@DSTC7,
                 title={Audio Visual Scene-aware dialog (AVSD) Track for Natural Language Generation in DSTC7},
-                author={Alamri, Huda and Hori, Chiori and Marks, Tim K and Batra, Dhruv and Parikh, Devi},
-                journal={DSTC7 at AAAI2019 Workshop},
+                author={Huda Alamri and Chiori Hori and Tim K. Marks and Dhruv Batra and Devi Parikh},
+                booktitle={DSTC7 at AAAI2019 Workshop},
                 year={2018}
         }
 
