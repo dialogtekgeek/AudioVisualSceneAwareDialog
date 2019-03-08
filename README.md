@@ -2,7 +2,7 @@
 
 This is an implementation of the naive fusion of audio and video features targeted at the AVSD Challenge at DSTC7. Details of our scheme are in the following paper. While, the results in paper used a Chainer implementation of the system, the provided code is in PyTorch (translated from Chainer).
 
-Please cite the paper for the baseline system:
+Please cite the paper for the baseline system without multimodal attention:
 
         @inproceedings{alamri@DSTC7,
                 title={Audio Visual Scene-aware dialog (AVSD) Track for Natural Language Generation in DSTC7},
@@ -29,7 +29,7 @@ https://arxiv.org/abs/1806.08409
 - six
 - java 1.8.0   (for coco-evaluation tools)
 
-## DSTC7 AVSD track data links
+## DSTC7 AVSD track data links: Pulicly available from April. 1st, 2019
 
    https://github.com/hudaAlamri/DSTC7-Audio-Visual-Scene-Aware-Dialog-AVSD-Challenge
 
