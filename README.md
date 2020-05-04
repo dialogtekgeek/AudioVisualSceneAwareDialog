@@ -54,6 +54,12 @@ https://arxiv.org/abs/1806.08409
       
             run_i3d.sh --stage 3 --test-set data/test_set4DSTC7-AVSD.json --fea-file "<FeaType>_testset/<ImageID>.npy"
 
+## Evaluatoin:
+
+AVSD@DSTC7
+
+https://drive.google.com/open?id=1nz9Pu9YIfuZHzowhASXERajRXqE6DBQx
+
 ## Result:
 
 The following results were obtained for the "prototype" test set by using `run_i3d.sh`.
